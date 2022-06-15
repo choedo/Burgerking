@@ -24,54 +24,54 @@ function BrandStory() {
         let tab = document.querySelectorAll('.brandstoryTopBtn li');
 
         switch(location) {
-            case '/brandstory/brand/story':
+            case '/Burgerking/brandstory/brand/story':
                 tab[0].classList.add("on");
                 tab[1].classList.remove("on");
                 tab[2].classList.remove("on");
                 break;
-            case '/brandstory/brand/qsr':
+            case '/Burgerking/brandstory/brand/qsr':
                 tab[0].classList.add("on");
                 tab[1].classList.remove("on");
                 tab[2].classList.remove("on");
                 break;
         
-            case '/brandstory/whopper/real':
+            case '/Burgerking/brandstory/whopper/real':
                 tab[0].classList.remove("on");
                 tab[1].classList.add("on");
                 tab[2].classList.remove("on");
                 break;
-            case '/brandstory/whopper/grilled':
+            case '/Burgerking/brandstory/whopper/grilled':
                 tab[0].classList.remove("on");
                 tab[1].classList.add("on");
                 tab[2].classList.remove("on");
                 break;
-            case '/brandstory/whopper/ingredient':
+            case '/Burgerking/brandstory/whopper/ingredient':
                 tab[0].classList.remove("on");
                 tab[1].classList.add("on");
                 tab[2].classList.remove("on");
                 break;
-            case '/brandstory/whopper/trust':
+            case '/Burgerking/brandstory/whopper/trust':
                 tab[0].classList.remove("on");
                 tab[1].classList.add("on");
                 tab[2].classList.remove("on");
                 break;
         
-            case '/brandstory/comm/ad':
+            case '/Burgerking/brandstory/comm/ad':
                 tab[0].classList.remove("on");
                 tab[1].classList.remove("on");
                 tab[2].classList.add("on");
                 break;
-            case '/brandstory/comm/awards':
+            case '/Burgerking/brandstory/comm/awards':
                 tab[0].classList.remove("on");
                 tab[1].classList.remove("on");
                 tab[2].classList.add("on");
                 break;
-            case '/brandstory/comm/newproduct':
+            case '/Burgerking/brandstory/comm/newproduct':
                 tab[0].classList.remove("on");
                 tab[1].classList.remove("on");
                 tab[2].classList.add("on");
                 break;
-            case '/brandstory/comm/esg':
+            case '/Burgerking/brandstory/comm/esg':
                 tab[0].classList.remove("on");
                 tab[1].classList.remove("on");
                 tab[2].classList.add("on");
@@ -86,24 +86,24 @@ function BrandStory() {
                     <h2>브랜드 스토리</h2>
 
                     <ul className="brandstoryTopBtn">
-                        <li className="on"><Link to="/brandstory/brand/story" className="category">BRAND</Link></li> 
-                        <li><Link to="/brandstory/whopper/real" className="category">WHOPPER</Link></li>
-                        <li><Link to="/brandstory/comm/ad" className="category">COMM.</Link></li>
+                        <li className="on"><Link to="/Burgerking/brandstory/brand/story" className="category">BRAND</Link></li> 
+                        <li><Link to="/Burgerking/brandstory/whopper/real" className="category">WHOPPER</Link></li>
+                        <li><Link to="/Burgerking/brandstory/comm/ad" className="category">COMM.</Link></li>
                     </ul>
                 </div>
             </div>
 
             <div>
-                <Route path="/brandstory/brand/story" component={Story} />
-                <Route path="/brandstory/brand/qsr" component={QSR} />
-                <Route path="/brandstory/whopper/real" component={Real} />
-                <Route path="/brandstory/whopper/grilled" component={Grilled} />
-                <Route path="/brandstory/whopper/ingredient" component={Ingredient} />
-                <Route path="/brandstory/whopper/trust" component={Trust} />
-                <Route path="/brandstory/comm/ad" component={Ad} />
-                <Route path="/brandstory/comm/awards" component={Awards} />
-                <Route path="/brandstory/comm/newproduct" component={NewProduct} />
-                <Route path="/brandstory/comm/esg" component={ESG} />
+                <Route path="/Burgerking/brandstory/brand/story" component={Story} />
+                <Route path="/Burgerking/brandstory/brand/qsr" component={QSR} />
+                <Route path="/Burgerking/brandstory/whopper/real" component={Real} />
+                <Route path="/Burgerking/brandstory/whopper/grilled" component={Grilled} />
+                <Route path="/Burgerking/brandstory/whopper/ingredient" component={Ingredient} />
+                <Route path="/Burgerking/brandstory/whopper/trust" component={Trust} />
+                <Route path="/Burgerking/brandstory/comm/ad" component={Ad} />
+                <Route path="/Burgerking/brandstory/comm/awards" component={Awards} />
+                <Route path="/Burgerking/brandstory/comm/newproduct" component={NewProduct} />
+                <Route path="/Burgerking/brandstory/comm/esg" component={ESG} />
             </div>
         </div>
     );

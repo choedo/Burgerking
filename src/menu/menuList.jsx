@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Link } from "react-router-dom";
-import styled from './menu.css';
+import './menu.css';
 
 import menuDB from '../db/menu.json';
 

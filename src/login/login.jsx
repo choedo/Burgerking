@@ -124,7 +124,7 @@ function Login() {
                                 </div>
                                 <div className="btn">
                                     <div><button onClick={ready}>로그인</button></div>
-                                    <div><Link to="/join" className="join_btn">회원가입</Link></div>
+                                    <div><Link to="/Burgerking/join" className="join_btn">회원가입</Link></div>
                                 </div>
                                 <div className="search">
                                     <ul>

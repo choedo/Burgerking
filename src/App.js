@@ -27,13 +27,13 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/Burgerking">
             <Header />
             <Home />
             <Footer />
           </Route>
 
-          <Route path="/login">
+          <Route path="/Burgerking/login">
             <LoginHeader />
             <div style={{paddingTop: '168px'}}>
               <TopRoute />
@@ -42,7 +42,7 @@ function App() {
             <Footer />
           </Route>
 
-          <Route path="/join">
+          <Route path="/Burgerking/join">
             <LoginHeader />
             <div style={{paddingTop: '168px'}}>
               <TopRoute />
@@ -51,7 +51,7 @@ function App() {
             <Footer />
           </Route>
 
-          <Route path="/menu">
+          <Route path="/Burgerking/menu">
             <Header />
             <div style={{paddingTop: '120px'}}>
               <TopRoute />
@@ -60,7 +60,7 @@ function App() {
             <Footer />
           </Route>
 
-          <Route path="/menudetail">
+          <Route path="/Burgerking/menudetail">
             <Header />
             <div style={{paddingTop: '120px'}}>
               <TopRoute />
@@ -69,7 +69,7 @@ function App() {
             <Footer />
           </Route>
 
-          <Route path="/search">
+          <Route path="/Burgerking/search">
             <Header />
             <div style={{paddingTop: '120px'}}>
               <TopRoute />
@@ -77,7 +77,7 @@ function App() {
             </div>
           </Route>
 
-          <Route path="/event">
+          <Route path="/Burgerking/event">
             <Header />
             <div style={{paddingTop: '120px'}}>
               <TopRoute />
@@ -85,16 +85,16 @@ function App() {
             </div>
             <Footer />
           </Route>
-          <Route path="/eventdetail">
+          <Route path="/Burgerking/eventdetail">
             <Header />
             <div style={{paddingTop: '120px'}}>
               <TopRoute />
-              <Route path="/eventdetail/:key" component={EventDetail} />
+              <Route path="/Burgerking/eventdetail/:key" component={EventDetail} />
             </div>
             <Footer />
           </Route>
 
-          <Route path="/newstore">
+          <Route path="/Burgerking/newstore">
             <Header />
             <div style={{paddingTop: '120px'}}>
               <TopRoute />
@@ -102,16 +102,16 @@ function App() {
             </div>
             <Footer />
           </Route>
-          <Route path="/newstoredetail">
+          <Route path="/Burgerking/newstoredetail">
             <Header />
             <div style={{paddingTop: '120px'}}>
               <TopRoute />
-              <Route path="/newstoredetail/:key" component={NewStoreDetail} />
+              <Route path="/Burgerking/newstoredetail/:key" component={NewStoreDetail} />
             </div>
             <Footer />
           </Route>
 
-          <Route path="/brandstory">
+          <Route path="/Burgerking/brandstory">
             <Header />
             <div style={{paddingTop: '120px'}}>
               <TopRoute />

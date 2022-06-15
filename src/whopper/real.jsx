@@ -8,22 +8,22 @@ function Real() {
             <div className={styled.btn_con}>
                 <ul>
                     <li>
-                        <Link to="/brandstory/whopper/real" className={styled.btn_link}>
+                        <Link to="/Burgerking/brandstory/whopper/real" className={styled.btn_link}>
                             Real Whopper
                         </Link>
                     </li>
                     <li>
-                        <Link to="/brandstory/whopper/grilled" className={styled.btn_link}>
+                        <Link to="/Burgerking/brandstory/whopper/grilled" className={styled.btn_link}>
                             FLAME GRILLED
                         </Link>
                     </li>
                     <li>
-                        <Link to="/brandstory/whopper/ingredient" className={styled.btn_link}>
+                        <Link to="/Burgerking/brandstory/whopper/ingredient" className={styled.btn_link}>
                             신선한 재료
                         </Link>
                     </li>
                     <li>
-                        <Link to="/brandstory/whopper/trust" className={styled.btn_link}>
+                        <Link to="/Burgerking/brandstory/whopper/trust" className={styled.btn_link}>
                             Trust in Taste
                         </Link>
                     </li>

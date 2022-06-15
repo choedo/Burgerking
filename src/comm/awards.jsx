@@ -8,22 +8,22 @@ function Awards() {
             <div className={styled.btn_con}>
                 <ul>
                     <li>
-                        <Link to="/brandstory/comm/ad" className={styled.btn_link}>
+                        <Link to="/Burgerking/brandstory/comm/ad" className={styled.btn_link}>
                             광고(TV/Digital)
                         </Link>
                     </li>
                     <li>
-                        <Link to="/brandstory/comm/awards" className={styled.btn_link}>
+                        <Link to="/Burgerking/brandstory/comm/awards" className={styled.btn_link}>
                             수상내역
                         </Link>
                     </li>
                     <li>
-                        <Link to="/brandstory/comm/newproduct" className={styled.btn_link}>
+                        <Link to="/Burgerking/brandstory/comm/newproduct" className={styled.btn_link}>
                             신제품
                         </Link>
                     </li>
                     <li>
-                        <Link to="/brandstory/comm/esg" className={styled.btn_link}>
+                        <Link to="/Burgerking/brandstory/comm/esg" className={styled.btn_link}>
                             ESG
                         </Link>
                     </li>

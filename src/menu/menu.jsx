@@ -13,7 +13,7 @@ function Menu() {
         let tab = document.querySelectorAll('.menuTopBtn li');
 
         switch(location) {
-            case '/menu/special':
+            case '/Burgerking/menu/special':
                 tab[0].classList.add("on");
                 tab[1].classList.remove("on");
                 tab[2].classList.remove("on");
@@ -23,7 +23,7 @@ function Menu() {
                 tab[6].classList.remove("on");
                 tab[7].classList.remove("on");
                 break;
-            case '/menu/premium':
+            case '/Burgerking/menu/premium':
                 tab[0].classList.remove("on");
                 tab[1].classList.add("on");
                 tab[2].classList.remove("on");
@@ -33,7 +33,7 @@ function Menu() {
                 tab[6].classList.remove("on");
                 tab[7].classList.remove("on");
                     break;
-            case '/menu/whopper':
+            case '/Burgerking/menu/whopper':
                 tab[0].classList.remove("on");
                 tab[1].classList.remove("on");
                 tab[2].classList.add("on");
@@ -43,7 +43,7 @@ function Menu() {
                 tab[6].classList.remove("on");
                 tab[7].classList.remove("on");
                 break;
-            case '/menu/junior':
+            case '/Burgerking/menu/junior':
                 tab[0].classList.remove("on");
                 tab[1].classList.remove("on");
                 tab[2].classList.remove("on");
@@ -53,7 +53,7 @@ function Menu() {
                 tab[6].classList.remove("on");
                 tab[7].classList.remove("on");
                 break;
-            case '/menu/allday':
+            case '/Burgerking/menu/allday':
                 tab[0].classList.remove("on");
                 tab[1].classList.remove("on");
                 tab[2].classList.remove("on");
@@ -63,7 +63,7 @@ function Menu() {
                 tab[6].classList.remove("on");
                 tab[7].classList.remove("on");
                 break;
-            case '/menu/side':
+            case '/Burgerking/menu/side':
                 tab[0].classList.remove("on");
                 tab[1].classList.remove("on");
                 tab[2].classList.remove("on");
@@ -73,7 +73,7 @@ function Menu() {
                 tab[6].classList.remove("on");
                 tab[7].classList.remove("on");
                 break;
-            case '/menu/drink':
+            case '/Burgerking/menu/drink':
                 tab[0].classList.remove("on");
                 tab[1].classList.remove("on");
                 tab[2].classList.remove("on");
@@ -83,7 +83,7 @@ function Menu() {
                 tab[6].classList.add("on");
                 tab[7].classList.remove("on");
                 break;
-            case '/menu/dogper':
+            case '/Burgerking/menu/dogper':
                 tab[0].classList.remove("on");
                 tab[1].classList.remove("on");
                 tab[2].classList.remove("on");
@@ -103,20 +103,20 @@ function Menu() {
                     <h2>메뉴소개</h2>
 
                     <ul className="menuTopBtn">
-                        <li><Link to="/menu/special" className="category">스페셜&할인팩</Link></li> 
-                        <li><Link to="/menu/premium" className="category">프리미엄</Link></li>
-                        <li><Link to="/menu/whopper" className="category">와퍼</Link></li>
-                        <li><Link to="/menu/junior" className="category">주니어&버거</Link></li>
-                        <li><Link to="/menu/allday" className="category">올데킹&치킨버거</Link></li>
-                        <li><Link to="/menu/side" className="category">사이드</Link></li>
-                        <li><Link to="/menu/drink" className="category">음료&디저트</Link></li>
-                        <li><Link to="/menu/dogper" className="category">독퍼</Link></li>
+                        <li><Link to="/Burgerking/menu/special" className="category">스페셜&할인팩</Link></li> 
+                        <li><Link to="/Burgerking/menu/premium" className="category">프리미엄</Link></li>
+                        <li><Link to="/Burgerking/menu/whopper" className="category">와퍼</Link></li>
+                        <li><Link to="/Burgerking/menu/junior" className="category">주니어&버거</Link></li>
+                        <li><Link to="/Burgerking/menu/allday" className="category">올데킹&치킨버거</Link></li>
+                        <li><Link to="/Burgerking/menu/side" className="category">사이드</Link></li>
+                        <li><Link to="/Burgerking/menu/drink" className="category">음료&디저트</Link></li>
+                        <li><Link to="/Burgerking/menu/dogper" className="category">독퍼</Link></li>
                     </ul>
                 </div>
             </div>
 
             <div>
-                <Route path="/menu/:category" component={MenuList} />
+                <Route path="/Burgerking/menu/:category" component={MenuList} />
             </div>
         </div>
     );

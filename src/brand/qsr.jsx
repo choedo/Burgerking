@@ -8,12 +8,12 @@ function QSR() {
             <div className={styled.btn_con}>
                 <ul>
                     <li>
-                        <Link to="/brandstory/brand/story" className={styled.btn_link}>
+                        <Link to="/Burgerking/brandstory/brand/story" className={styled.btn_link}>
                             BRAND philosophy
                         </Link>
                     </li>
                     <li>
-                        <Link to="/brandstory/brand/qsr" className={styled.btn_link}>
+                        <Link to="/Burgerking/brandstory/brand/qsr" className={styled.btn_link}>
                             SMART QSR
                         </Link>
                     </li>

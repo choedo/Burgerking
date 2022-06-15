@@ -7,7 +7,7 @@
             "composition": "디아블로 얼티밋 도넛킹+기네스와퍼 +크리미모짜볼5조각+너겟킹4조각+콜라R2",
             "packageName": "special",
             "newproduct": false,
-            "url": "/menudetail/special/1"
+            "url": "/Burgerking/menudetail/special/1"
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "composition": "디아블로 얼티밋 도넛킹+베이컨치즈와퍼 +크리미모짜볼5조각+너겟킹4조각+콜라R2",
             "packageName": "special",
             "newproduct": false,
-            "url": "/menudetail/special/2"
+            "url": "/Burgerking/menudetail/special/2"
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "composition": "디아블로 얼티밋 도넛킹+콰트로치즈와퍼 +크리미모짜볼5조각+너겟킹4조각+콜라R2",
             "packageName": "special",
             "newproduct": false,
-            "url": "/menudetail/special/3"
+            "url": "/Burgerking/menudetail/special/3"
         },
 
         {
@@ -37,7 +37,7 @@
             "setImg": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/92fd3e7e-0fe0-46cf-bb02-7210bdc225c0.png",
             "packageName": "premium",
             "newproduct": true,
-            "url": "/menudetail/premium/11"
+            "url": "/Burgerking/menudetail/premium/11"
 
         },
         {
@@ -49,7 +49,7 @@
             "setImg": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/f844f4ca-75f2-4d82-92ed-81905086f81c.png",
             "packageName": "premium",
             "newproduct": false,
-            "url": "/menudetail/premium/12"
+            "url": "/Burgerking/menudetail/premium/12"
         },
         {
             "id": 13,
@@ -60,7 +60,7 @@
             "setImg": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/6fe2978a-b47a-4c4d-8f7c-838c0df261ab.png",
             "packageName": "premium",
             "newproduct": false,
-            "url": "/menudetail/premium/13"
+            "url": "/Burgerking/menudetail/premium/13"
         },
         {
             "id": 14,
@@ -71,7 +71,7 @@
             "setImg": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/a8da84e3-60db-4208-b3a8-44b1bda5356a.png",
             "packageName": "premium",
             "newproduct": false,
-            "url": "/menudetail/premium/14"
+            "url": "/Burgerking/menudetail/premium/14"
         },
         {
             "id": 15,
@@ -82,7 +82,7 @@
             "setImg": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/22329894-88b7-4809-8e33-3d132dd5486e.png",
             "packageName": "premium",
             "newproduct": false,
-            "url": "/menudetail/premium/15"
+            "url": "/Burgerking/menudetail/premium/15"
         },
 
         {
@@ -94,7 +94,7 @@
             "setImg": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/f96bb241-d8a1-4eb8-8321-b4769ebe6cd6.png",
             "packageName": "whopper",
             "newproduct": false,
-            "url": "/menudetail/whopper/21"
+            "url": "/Burgerking/menudetail/whopper/21"
         },
         {
             "id": 22,
@@ -105,7 +105,7 @@
             "setImg": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/a4de0388-0f4a-499c-bb94-824efb84094e.png",
             "packageName": "whopper",
             "newproduct": false,
-            "url": "/menudetail/whopper/22"
+            "url": "/Burgerking/menudetail/whopper/22"
         },
         {
             "id": 23,
@@ -116,7 +116,7 @@
             "setImg": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/f9d9d716-27f9-4f7c-9f8e-d4b70b2ba5ce.png",
             "packageName": "whopper",
             "newproduct": false,
-            "url": "/menudetail/whopper/23"
+            "url": "/Burgerking/menudetail/whopper/23"
         },
 
         {
@@ -128,7 +128,7 @@
             "setImg": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/ce3e5d11-1ca4-4ce9-a147-ce78b5368dc1.png",
             "packageName": "junior",
             "newproduct": false,
-            "url": "/menudetail/junior/31"
+            "url": "/Burgerking/menudetail/junior/31"
         },
         {
             "id": 32,
@@ -139,7 +139,7 @@
             "setImg": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/e6d1bbcf-e32f-47ee-9b62-0350a62626d6.png",
             "packageName": "junior",
             "newproduct": false,
-            "url": "/menudetail/junior/31"
+            "url": "/Burgerking/menudetail/junior/31"
         },
 
         {
@@ -151,7 +151,7 @@
             "setImg": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/14f36ee8-ea3e-4a73-8ffd-733604795c6f.png",
             "packageName": "allday",
             "newproduct": true,
-            "url": "/menudetail/allday/41"
+            "url": "/Burgerking/menudetail/allday/41"
         },
         {
             "id": 42,
@@ -162,7 +162,7 @@
             "setImg": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/b05e1747-e07e-42f8-b9a5-9a743c5e6ce0.png",
             "packageName": "allday",
             "newproduct": true,
-            "url": "/menudetail/allday/42"
+            "url": "/Burgerking/menudetail/allday/42"
         },
 
         {
@@ -172,7 +172,7 @@
             "img": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/20a7c454-9f49-466f-954f-88c423f291c0.png",
             "packageName": "side",
             "newproduct": true,
-            "url": "/menudetail/side/51"
+            "url": "/Burgerking/menudetail/side/51"
         },
         {
             "id": 52,
@@ -181,7 +181,7 @@
             "img": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/f418df37-f098-4953-814c-57feeced60ce.png",
             "packageName": "side",
             "newproduct": false,
-            "url": "/menudetail/side/52"
+            "url": "/Burgerking/menudetail/side/52"
         },
         {
             "id": 53,
@@ -190,7 +190,7 @@
             "img": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/12b0115d-03b7-4946-9ca3-6632702b1a19.png",
             "packageName": "side",
             "newproduct": false,
-            "url": "/menudetail/side/53"
+            "url": "/Burgerking/menudetail/side/53"
         },
 
         {
@@ -200,7 +200,7 @@
             "img": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/5390e233-3434-456f-85d5-a763bd3371f4.png",
             "packageName": "drink",
             "newproduct": false,
-            "url": "/menudetail/drink/61"
+            "url": "/Burgerking/menudetail/drink/61"
         },
         {
             "id": 62,
@@ -209,7 +209,7 @@
             "img": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/8a3cabbf-2afe-4f86-a840-753367dd850d.png",
             "packageName": "drink",
             "newproduct": false,
-            "url": "/menudetail/drink/62"
+            "url": "/Burgerking/menudetail/drink/62"
         },
         {
             "id": 63,
@@ -218,7 +218,7 @@
             "img": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/ac7a1788-3d6c-4d6f-a4ca-baf623b6fb14.png",
             "packageName": "drink",
             "newproduct": false,
-            "url": "/menudetail/drink/63"
+            "url": "/Burgerking/menudetail/drink/63"
         },
 
         {
@@ -228,7 +228,7 @@
             "img": "https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/17196824-943c-4010-b7a5-78fd45163c29.png",
             "packageName": "dogper",
             "newproduct": false,
-            "url": "/menudetail/dogper/71"
+            "url": "/Burgerking/menudetail/dogper/71"
         }
     ]
 }

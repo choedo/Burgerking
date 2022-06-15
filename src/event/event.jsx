@@ -1,5 +1,5 @@
 import React from "react";
-import styled from './event.css';
+import './event.css';
 import { Route, Link } from 'react-router-dom';
 
 import EventBtn from "./eventBtn";
@@ -14,17 +14,17 @@ function Event() {
         let tab = document.querySelectorAll('.eventTopBtn li');
 
         switch(location) {
-            case '/event/all':
+            case '/Burgerking/event/all':
                 tab[0].classList.add("on");
                 tab[1].classList.remove("on");
                 tab[2].classList.remove("on");
                 break;
-            case '/event/ing':
+            case '/Burgerking/event/ing':
                 tab[0].classList.remove("on");
                 tab[1].classList.add("on");
                 tab[2].classList.remove("on");
                 break;
-            case '/event/end':
+            case '/Burgerking/event/end':
                 tab[0].classList.remove("on");
                 tab[1].classList.remove("on");
                 tab[2].classList.add("on");
@@ -39,16 +39,15 @@ function Event() {
                     <h2>이벤트</h2>
 
                     <ul className="eventTopBtn">
-                        <li className="on"><Link to="/event/all" className="category">전체</Link></li> 
-                        <li><Link to="/event/ing" className="category">진행중</Link></li>
-                        <li><Link to="/event/end" className="category">종료</Link></li>
+                        <li className="on"><Link to="/Burgerking/event/all" className="category">전체</Link></li> 
+                        <li><Link to="/Burgerking/event/ing" className="category">진행중</Link></li>
+                        <li><Link to="/Burgerking/event/end" className="category">종료</Link></li>
                     </ul>
                 </div>
             </div>
 
             <EventBtn />
-            <Route path="/event/:category" component={EventList} />
-            
+            <Route path="/Burgerking/event/:category" component={EventList} />
         </div>
     );
 }

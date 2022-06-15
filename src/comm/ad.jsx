@@ -2,34 +2,28 @@ import React from "react";
 import './ad.css';
 import { Route, Link } from 'react-router-dom';
 
-import AdDB from "../db/ad.json";
-
 function Ad() {
-    let src;
-    const movieBtn = () => {
-        console.log(this.value)
-    }
     return(
         <div>
             <div className="btn_con">
                 <ul>
                     <li>
-                        <Link to="/brandstory/comm/ad" className="btn_link">
+                        <Link to="/Burgerking/brandstory/comm/ad" className="btn_link">
                             광고(TV/Digital)
                         </Link>
                     </li>
                     <li>
-                        <Link to="/brandstory/comm/awards" className="btn_link">
+                        <Link to="/Burgerking/brandstory/comm/awards" className="btn_link">
                             수상내역
                         </Link>
                     </li>
                     <li>
-                        <Link to="/brandstory/comm/newproduct" className="btn_link">
+                        <Link to="/Burgerking/brandstory/comm/newproduct" className="btn_link">
                             신제품
                         </Link>
                     </li>
                     <li>
-                        <Link to="/brandstory/comm/esg" className="btn_link">
+                        <Link to="/Burgerking/brandstory/comm/esg" className="btn_link">
                             ESG
                         </Link>
                     </li>

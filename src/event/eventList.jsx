@@ -1,5 +1,5 @@
 import React from "react";
-import styled from './event.css';
+import './event.css';
 import { Route, Link } from 'react-router-dom';
 
 import EventDB from '../db/event.json';

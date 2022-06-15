@@ -9,9 +9,6 @@ function OtherMenu({ match }) {
     const menuCategory = menuDB.menu.filter(cate => (
         cate.packageName == category
     ));
-    const menuDetail = menuDB.menu.filter(menu => (
-        menu.id == key
-    ));
     
     return(
         <div className={styled.other_con}>

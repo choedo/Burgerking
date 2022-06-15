@@ -10,7 +10,7 @@
             "target": "디아블로 얼티밋 도넛킹 팩3, 디아블로 얼티밋 도넛킹 팩2, 디아블로 얼티밋 도넛킹 팩1, 디아블로 얼티밋 도넛킹 라지세트, 디아블로 얼티밋 도넛킹 라지세트, 디아블로 얼티밋 도넛킹 세트, 디아블로 얼티밋 도넛킹,크리스피 도넛 치킨버거 라지세트, 크리스피 도넛 치킨버거 세트,크리스피 도넛 치킨버거, 스파이시 도넛 치킨버거 라지세트, 스파이시 도넛 치킨버거 세트, 스파이시 도넛 치킨버거",
             "time": "매장 운영시간에 따라 상이 합니다.",
             "ing": true,
-            "url": "/eventdetail/1001"
+            "url": "/Burgerking/eventdetail/1001"
         },
         {
             "id": 1002,
@@ -22,7 +22,7 @@
             "target": "통새우와퍼주니어, 불고기와퍼주니어, 롱치킨버거",
             "time": "매장 운영시간에 따라 상이 합니다.",
             "ing": true,
-            "url": "/eventdetail/1002"
+            "url": "/Burgerking/eventdetail/1002"
         },
         {
             "id": 1003,
@@ -34,7 +34,7 @@
             "target": "팝핑캔디선데",
             "time": "매장 운영시간에 따라 상이 합니다.",
             "ing": true,
-            "url": "/eventdetail/1003"
+            "url": "/Burgerking/eventdetail/1003"
         },
         {
             "id": 1004,
@@ -46,7 +46,7 @@
             "target": "딜리버리 전 메뉴",
             "time": "10 ~ 23시",
             "ing": true,
-            "url": "/eventdetail/1004"
+            "url": "/Burgerking/eventdetail/1004"
         },
         {
             "id": 1005,
@@ -58,7 +58,7 @@
             "target": "통새우와퍼, 콰트로치즈와퍼, 할라피뇨와퍼",
             "time": "매장 운영시간에 따라 상이 합니다.",
             "ing": true,
-            "url": "/eventdetail/1005"
+            "url": "/Burgerking/eventdetail/1005"
         },
         {
             "id": 1006,
@@ -70,7 +70,7 @@
             "target": "와퍼주니어, 불고기와퍼주니어, 치즈와퍼주니어(2300원)",
             "time": "매장 운영시간에 따라 상이 합니다.",
             "ing": false,
-            "url": "/eventdetail/1006"
+            "url": "/Burgerking/eventdetail/1006"
         }
     ]
 }

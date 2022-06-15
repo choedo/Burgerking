@@ -10,10 +10,10 @@ import OtherMenu from "./otherMenu";
 function MenuDetail() {
     return(
         <div>
-            <Route path="/menudetail/:category/:key" component={MenuDetailImg} />
+            <Route path="/Burgerking/menudetail/:category/:key" component={MenuDetailImg} />
             <MenuDetailInfo />
-            <Route path="/menudetail/:category/:key" component={SetMenu} />
-            <Route path="/menudetail/:category/:key" component={OtherMenu} />
+            <Route path="/Burgerking/menudetail/:category/:key" component={SetMenu} />
+            <Route path="/Burgerking/menudetail/:category/:key" component={OtherMenu} />
         </div>
     );
 }

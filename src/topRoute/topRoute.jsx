@@ -11,116 +11,116 @@ function TopRoute(props) {
         location = window.location.pathname;
         
         switch(location) {
-            case '/login':
+            case '/Burgerking/login':
                 setHref('로그인');
                 setSubHref('');
                 break;
 
-            case '/join':
+            case '/Burgerking/join':
                 setHref('로그인');
                 setSubHref('회원가입');
                 break;
 
-            case '/menu/special':
+            case '/Burgerking/menu/special':
                 setHref('메뉴소개');
                 setSubHref('');
                 break;
-            case '/menu/premium':
+            case '/Burgerking/menu/premium':
                 setHref('메뉴소개');
                 setSubHref('');
                 break;
-            case '/menu/whopper':
+            case '/Burgerking/menu/whopper':
                 setHref('메뉴소개');
                 setSubHref('');
                 break;
-            case '/menu/junior':
+            case '/Burgerking/menu/junior':
                 setHref('메뉴소개');
                 setSubHref('');
                 break;
-            case '/menu/allday':
+            case '/Burgerking/menu/allday':
                 setHref('메뉴소개');
                 setSubHref('');
                 break;
-            case '/menu/side':
+            case '/Burgerking/menu/side':
                 setHref('메뉴소개');
                 setSubHref('');
                 break;
-            case '/menu/drink':
+            case '/Burgerking/menu/drink':
                 setHref('메뉴소개');
                 setSubHref('');
                 break;
-            case '/menu/dogper':
+            case '/Burgerking/menu/dogper':
                 setHref('메뉴소개');
                 setSubHref('');
                 break;
 
-            case '/search':
+            case '/Burgerking/search':
                 setHref('매장찾기');
                 setSubHref('');
                 break;
 
-            case '/event/all':
+            case '/Burgerking/event/all':
                 setHref('이벤트');
                 setSubHref('전체');
                 break;
-            case '/event/ing':
+            case '/Burgerking/event/ing':
                 setHref('이벤트');
                 setSubHref('진행중');
                 break;
-            case '/event/end':
+            case '/Burgerking/event/end':
                 setHref('이벤트');
                 setSubHref('종료');
                 break;
 
-            case '/newstore':
+            case '/Burgerking/newstore':
                 setHref('신규매장');
                 setSubHref('전체');
                 break;
             
-            case '/searchstore':
+            case '/Burgerking/searchstore':
                 setHref('매장찾기');
                 setSubHref('');
                 break;
 
-            case '/brandstory/brand/story':
+            case '/Burgerking/brandstory/brand/story':
                 setHref('브랜드스토리');
                 setSubHref('BRAND');
                 break;
-            case '/brandstory/brand/qsr':
+            case '/Burgerking/brandstory/brand/qsr':
                 setHref('브랜드스토리');
                 setSubHref('BRAND');
                 break;
 
-            case '/brandstory/whopper/real':
+            case '/Burgerking/brandstory/whopper/real':
                 setHref('브랜드스토리');
                 setSubHref('WHOPPER');
                 break;
-                case '/brandstory/whopper/grilled':
+            case '/Burgerking/brandstory/whopper/grilled':
                 setHref('브랜드스토리');
                 setSubHref('WHOPPER');
                 break;
-                case '/brandstory/whopper/ingredient':
+            case '/Burgerking/brandstory/whopper/ingredient':
                 setHref('브랜드스토리');
                 setSubHref('WHOPPER');
                 break;
-                case '/brandstory/whopper/trust':
+            case '/Burgerking/brandstory/whopper/trust':
                 setHref('브랜드스토리');
                 setSubHref('WHOPPER');
                 break;
 
-            case '/brandstory/comm/ad':
+            case '/Burgerking/brandstory/comm/ad':
                 setHref('브랜드스토리');
                 setSubHref('COMM.');
                 break;
-            case '/brandstory/comm/awards':
+            case '/Burgerking/brandstory/comm/awards':
                 setHref('브랜드스토리');
                 setSubHref('COMM.');
                 break;
-            case '/brandstory/comm/newproduct':
+            case '/Burgerking/brandstory/comm/newproduct':
                 setHref('브랜드스토리');
                 setSubHref('COMM.');
                 break;
-            case '/brandstory/comm/esg':
+            case '/Burgerking/brandstory/comm/esg':
                 setHref('브랜드스토리');
                 setSubHref('COMM.');
                 break;
