@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Burgerking/static/css/main.febb5887.css",
-    "main.js": "/Burgerking/static/js/main.d3ea7ef0.js",
+    "main.js": "/Burgerking/static/js/main.74b76a73.js",
     "static/js/787.ae90608e.chunk.js": "/Burgerking/static/js/787.ae90608e.chunk.js",
     "static/media/realwhopper_list.png": "/Burgerking/static/media/realwhopper_list.e9769198c4077dda0420.png",
     "static/media/bg_ingredient.gif": "/Burgerking/static/media/bg_ingredient.21292a5fbe6f066dd57c.gif",
@@ -35,11 +35,11 @@
     "static/media/awards_tro.png": "/Burgerking/static/media/awards_tro.b6fd822bb8c0e17b339a.png",
     "index.html": "/Burgerking/index.html",
     "main.febb5887.css.map": "/Burgerking/static/css/main.febb5887.css.map",
-    "main.d3ea7ef0.js.map": "/Burgerking/static/js/main.d3ea7ef0.js.map",
+    "main.74b76a73.js.map": "/Burgerking/static/js/main.74b76a73.js.map",
     "787.ae90608e.chunk.js.map": "/Burgerking/static/js/787.ae90608e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.febb5887.css",
-    "static/js/main.d3ea7ef0.js"
+    "static/js/main.74b76a73.js"
   ]
 }
