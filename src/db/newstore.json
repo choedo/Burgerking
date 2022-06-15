@@ -1,0 +1,28 @@
+{
+    "newstore": [
+        {
+            "id": 2001,
+            "img": "https://d1cua0vf0mkpiy.cloudfront.net/images/event/banner/9a16bcb7-98f9-472a-9d30-d39f3ba45b35.png",
+            "detail": "https://d1cua0vf0mkpiy.cloudfront.net/images/event/normal/2de02f34-4d04-488f-957a-3f34b4ca2309.png",
+            "title": "동대문중학교사거리점 GRAND OPEN",
+            "term": "2022.05.31~",
+            "url": "/newstoredetail/2001"
+        },
+        {
+            "id": 2002,
+            "img": "https://d1cua0vf0mkpiy.cloudfront.net/images/event/banner/acf7475d-68ba-4b63-ae97-9e135b24b975.png",
+            "detail": "https://d1cua0vf0mkpiy.cloudfront.net/images/event/normal/80eb270a-e8c8-4ef4-9483-7c777cbc4bad.png",
+            "title": "부산영도점 GRAND OPEN",
+            "term": "2022.05.26~",
+            "url": "/newstoredetail/2002"
+        },
+        {
+            "id": 2003,
+            "img": "https://d1cua0vf0mkpiy.cloudfront.net/images/event/banner/29e3cc72-ee9a-4867-b4b4-95bf73b2f568.png",
+            "detail": "https://d1cua0vf0mkpiy.cloudfront.net/images/event/normal/5ce17985-4bbe-4c0c-a1c5-eccad9514d2a.png",
+            "title": "송도타임스페이스점 GRAND OPEN",
+            "term": "2022.05.17~",
+            "url": "/newstoredetail/2003"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+.mapBox {
+    width: 100%; height: calc(100vh - 178px);
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    top: 0;
+}
+
+.mapCon {
+    width: 100%; height: 100vh;
+    display: flex;
+}
+#myMap {
+    width: 100%; height: 100vh;
+}
+#result-list {
+    margin-top: 102px;
+    padding: 18px 24px;
+    width: 427px; height: 100vh;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0; right: 0;
+    z-index: 30;
+    background-color: #f2ebe6;
+}
+#result-list .resultBox {
+    padding: 18px 24px;
+    background-color: #FFFFFF;
+    z-index: 40;
+}
+.resultBox .placeName {
+    font-size: 20px; font-weight: 900;
+    line-height: 30px;
+}
+.resultBox .placeAddressName {
+    font-size: 18px; font-weight: 700;
+    color: #8D8D8D;
+}
+.resultBox .placeAddress {
+    font-size: 18px; font-weight: 700;
+    color: #8D8D8D;
+}
+.resultBox .placePhone {
+    font-size: 16px; font-weight: 700;
+    color: #8D8D8D;
+}
+
+
+.inputForm {
+    position: absolute;
+    top: 0; right: 0;
+    z-index: 60;
+    width: 427px; height: 102px;
+    background-color: #FFFFFF;
+}
+.inputForm .searchBox {
+    padding: 18px 24px;
+    width: 100%;
+    display: flex;
+}
+.inputForm .searchBox .searchInput {
+    width: 80%; height: 66px;
+    border: none; outline: none;
+    font-size: 24px; font-weight: 900;
+    background: url('../login/images/input_line.png') no-repeat 0 bottom;
+}
+.inputForm .searchBox .searchBtn {
+    width: 20%; height: 66px;
+    border: none; outline: none;
+    background: url('./images/searchBtn.png') no-repeat center center;
+}

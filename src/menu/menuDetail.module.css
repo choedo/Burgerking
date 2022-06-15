@@ -1,0 +1,150 @@
+.detailBg {
+    width: 100%; height: 400px;
+    background: #130101 url(./images/detail_bg.png) no-repeat center center;
+}
+
+.detail_in {
+    margin: auto;
+    width: 1184px; height: 100%;
+    display: flex;
+    align-items: center;
+}
+.detail_in .detailName {
+    width: 55%; height: 97px;
+}
+.detail_in .detailName h4 {
+    font-size: 60px; font-weight: 900;
+    color: #FFFFFF;
+}
+.detail_in .detailName p {
+    font-size: 22px; font-weight: 600;
+    color: #FFFFFF;
+}
+.detail_in .detailImg {
+    width: 440px; height: 330px;
+}
+.detail_in .detailImg img {
+    width: 100%;
+}
+
+
+.detailInfo {
+    width: 100%; height: 88px;
+    background: url(./images/info_bg.png) repeat center center;
+}
+
+.detailInfo_in {
+    margin: auto;
+    width: 1184px; height: 100%;
+    display: flex;
+    justify-content: space-between; align-items: center;
+}
+.detailInfo_in .detail_back {
+    background: url(./images/arrow_right.png) no-repeat left center;
+}
+.detailInfo_in .detail_back .detail_back_link {
+    padding-left: 28px;
+    font-size: 18px; font-weight: 900;
+    color: #FFFFFF;
+    background: none;
+    outline: none; border: none;
+    cursor: pointer;
+}
+
+.detailInfo_in .detail_allergy {
+    padding: 5px 17px 5px 19px;
+    height: 44px;
+    cursor: pointer;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+.detailInfo_in .detail_allergy > button {
+    padding-right: 28px;
+    font-size: 20px; font-weight: 900;
+    background: url(./images/allergy.png) no-repeat right center;
+    color: #252423;
+    outline: none; border: none;
+    cursor: pointer;
+}
+
+
+.set_con {
+    margin: auto; padding: 50px 0 45px;
+    width: 1184px; height: 560px;
+    display: flex;
+}
+.set_con ul {
+    width: 100%; height: 100%;
+    display: flex;
+    align-items: flex-start; justify-content: center;
+}
+.set_con ul li {
+    width: 33%; height: auto;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.set_con ul li:nth-child(2) {
+    border-right: 1px solid rgb(233, 233, 233);
+    border-left: 1px solid rgb(233, 233, 233);
+}
+.set_con ul li img {
+    width: 100%;
+}
+.set_con ul li .setImg {
+    /* max-width: 296px; */
+    width: 296px; height: 194px;
+}
+.set_con ul li .setInfo {
+    padding: 40px 10px 10px;
+    text-align: center;
+}
+.set_con ul li .setInfo h4 {
+    font-size: 32px; font-weight: 900;
+    color: #000000;
+}
+.set_con ul li .setInfo p {
+    margin-top: 20px;
+    font-size: 20px; font-weight: 600;
+    color: #000000;
+}
+
+
+.other_con {
+    width: 100%; height: 463px;
+    background-color: #F2EBE6;
+}
+.other_in {
+    margin: auto; padding: 0 70px;
+    width: 1184px; height: 100%;
+}
+.other_in h3 {
+    padding-top: 75px;
+    font-size: 36px; font-weight: 900;
+    color: #000000;
+    text-align: center;
+}
+.other_in .other_menu {
+    margin-top: 55px;
+    width: 100%; height: 199px;
+    display: flex;
+    justify-content: center;
+}
+.other_in .other_menu > div {
+    width: 25%; height: 100%;
+    text-align: center;
+}
+.other_in .other_menu .otherImg {
+    margin: auto;
+    width: 216px; height: 142px;
+}
+.other_in .other_menu .otherImg img {
+    width: 100%;
+}
+.other_in .other_menu .otherName {
+    padding: 20px 15px;
+}
+.other_in .other_menu .otherName  p {
+    font-size: 15px; font-weight: 900;
+}

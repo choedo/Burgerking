@@ -1,0 +1,138 @@
+.menu_link {
+    margin: auto; padding: 50px 0 45px;
+    width: 1184px;
+}
+.menu_link div {
+    display: flex;
+    justify-content: space-between; align-items: center;
+}
+.menu_link h2 {
+    font-size: 40px; font-weight: 900;
+}
+.menu_link ul {
+    display: flex;
+}
+.menu_link ul li {
+    padding: 0 14px;
+}
+.menu_link ul .category {
+    padding: 5px 0;
+    font-size: 16px; font-weight: 900;
+    color: #B8B8B8;
+}
+
+
+.newStore_btn_con {
+    margin: auto; margin-top: 15px;
+    width: 1184px; height: 75px;
+}
+.newStore_btn_con ul {
+    width: 100%; height: 100%;
+    display: flex;
+    align-items: center;
+}
+.newStore_btn_con ul li {
+    padding: 23px 0;
+    width: 50%; height: 100%;
+    text-align: center;
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+.newStore_btn_con ul li:nth-child(1) {
+    border: 0;
+    border-bottom: 2px solid #000000;
+    background-color: #F2F2F2;
+}
+.newStore_btn_con ul li:nth-child(1) .btn_link {
+    color: #C0C0C0;
+}
+.newStore_btn_con ul li:nth-child(2) {
+    border-bottom: 0;
+}
+.newStore_btn_con ul li .btn_link {
+    width: 100%; height: 100%;
+    font-size: 24px; font-weight: 900;
+    display: block;
+}
+
+
+.list_con {
+    margin: auto; margin-bottom: 120px;
+    width: 1184px;
+}
+
+.list_con ul {
+    width: 100%;
+    display: flex; flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list_con ul li {
+    /* width: 547px; */
+    margin-top: 20px;
+    width: 48%;
+}
+.list_con ul li .listImg {
+    width: 100%; height: 230px;
+    cursor: pointer;
+}
+.list_con ul li .listImg img {
+    width: 100%; height: 100%;
+}
+.list_con ul li .listDate {
+    margin-top: 15px;
+}
+.list_con ul li .listDate p {
+    font-size: 26px; font-weight: 900;
+    color: #000000;
+}
+
+
+.newStore_detail {
+    margin: auto;
+    width: 1184px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.newStore_detail_header {
+    padding: 30px 20px;
+    height: 135px;
+    background-color: #FAFAFA;
+    border-bottom: 2px solid #E5E5E5;
+}
+.newStore_detail_header h4 {
+    margin-bottom: 20px;
+    font-size: 30px; font-weight: 900;
+}
+.newStore_detail_header p {
+    font-size: 18px; font-weight: 800;
+    color: #8A8A8A;
+}
+
+.newStore_detail_contents {
+    margin: 0 0 30px; padding: 40px 17%;
+}
+.newStore_detail_contents .event_detail_img {
+    text-align: center;
+}
+.newStore_detail_contents .event_detail_img img {
+    width: 100%;
+}
+
+
+.listBtn {
+    margin: 30px auto 100px;
+    width: 256px; height: 68px;
+}
+.listBtn button {
+    padding: 12px 10px;
+    width: 256px; height: 68px;
+    background-color: #512314;
+    border-radius: 10px;
+    border: none; outline: none;
+    cursor: pointer;
+}
+.listBtn button span {
+    font-size: 24px; font-weight: 900;
+    color: #FFFFFF;
+}

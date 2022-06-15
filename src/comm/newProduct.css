@@ -1,0 +1,31 @@
+.container {
+    margin: auto; padding-top: 45px;
+    width: 1184px;
+}
+.container ul {
+    display: flex;
+    justify-content: space-around;
+}
+.container li {
+    margin-bottom: 20px; padding: 0 4px;
+    width: 286px;
+}
+.container li .menuImg {
+    margin: 0 29px;
+}
+.container li .menuImg img {
+    width: 100%;
+}
+.container li .menuCon {
+    margin: 12px 0 25px;
+    text-align: center;
+    max-width: 88%;
+}
+.container li .menuName p {
+    font-size: 20px; font-weight: 900;
+}
+.container li .menuExplain p {
+    margin-top: 12px;
+    font-size: 20px; font-weight: 900;
+    color: #89513A;
+}

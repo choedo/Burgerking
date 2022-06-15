@@ -1,0 +1,66 @@
+.login_header {
+    width: 100%; height: 168px;
+    background-color: #E22219;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 15%);;
+    position: fixed;
+}
+
+.login_header_in {
+    margin: auto;
+    width: 1184px;
+}
+
+.login_top {
+    height: 48px;
+}
+.login_top ul {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end; align-items: center;
+}
+.login_top ul li {
+    border-right: 1px solid #F2EBE6;
+}
+.login_top ul li:last-child {
+    border-right: 0;
+}
+.login_top ul li .topLink {
+    padding: 0 14px;
+    font-size: 14px; font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+.login_menu {
+    display: flex;
+    justify-content: space-between; align-items: center;
+    padding: 0 20px;
+}
+
+.login_logo {
+    height: 120px;
+}
+.login_logo h2 {
+    line-height: 120px;
+    padding-left: 80px;
+    font-size: 36px; font-weight: 900;
+    color: #FFFFFF;
+    background: url("./images/logo_login.png") no-repeat 0 center;
+}
+
+.login_btn {
+    width: 168px; height: 50px;
+    background-color: #512314;
+    border-radius: 25px;
+}
+.login_btn p {
+    padding: 0 20px;
+    text-align: center;
+}
+.login_btn p .joinBtn {
+    width: 100%; height: 100%;
+    line-height: 50px;
+    font-size: 20px; font-weight: 900;
+    color: #FFFFFF;
+    display: block;
+}

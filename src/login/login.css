@@ -1,0 +1,271 @@
+.member {
+    padding: 75px 20px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.member_in {
+    margin: auto;
+    width: 1184px;
+}
+.member_title em {
+    margin-bottom: 11px;
+    font-size: 40px; font-weight: 900;
+    color: #E22219;
+    font-style: normal;
+}
+.member_title strong {
+    font-size: 40px; font-weight: 900;
+    color: #000000;
+}
+
+.input_form {
+    padding: 45px 0 70px;
+    display: flex;
+}
+.input_form > div {
+    width: 50%;
+}
+.input_form > div:first-child {
+    border-right: 1px solid #E5E5E5;
+}
+.input_form p {
+    margin-bottom: 17px; padding-left: 50px;
+    font-size: 18px; font-weight: 900;
+    color: #2E2E2E;
+    line-height: 40px;
+}
+/* 일반로그인 */
+.normal_login {
+    padding-right: 60px;
+}
+.normal_login p {
+    background: url('./images/ico_key.png') no-repeat 0 center;
+}
+.login_input {
+    padding: 10px 0px 0px 50px;
+}
+.login_input .input_box {
+    width: 100%;
+    background: url('./images/input_line.png') no-repeat 0 bottom;
+    display: flex;
+    justify-content: space-between; align-items: center;
+}
+.login_input .input_box input {
+    height: 66px;
+    padding: 0 25px 3px 12px;
+    width: 100%; height: 100%;
+    outline: none; border: none;
+    font-size: 18px; font-weight: 600;
+}
+.login_input .input_box .input_x {
+    width: 30px; height: 66px;
+    background: url('./images/ico_x.png') no-repeat center center;
+    background-size: 18px auto;
+    cursor: pointer;
+    border: none;
+}
+.login_input .input_box .input_view {
+    width: 30px; height: 66px;
+    background: url('./images/ico_eye.png') no-repeat center center;
+    cursor: pointer;
+    border: none;
+}
+.login_input .check {
+    margin: 20px 0;
+}
+.login_input .check label {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.login_input .check input[type="checkbox"] {
+    position: absolute; opacity: 0;
+}
+.login_input .check label span {
+    padding-left: 30px;
+    display: inline-block;
+    line-height: 25px;
+    font-size: 16px; font-weight: 600;
+    background: url('./images/ico_non_check.png') no-repeat 0 center;
+    background-size: 25px 25px;
+}
+.login_input .check label.on span {
+    background: url('./images/ico_on_check.png') no-repeat 0 center;
+}
+.login_input .btn {
+    margin: 30px 0;
+    display: flex;
+}
+.login_input .btn div {
+    width: 216px; height: 68px;
+    margin-right: 10px;
+}
+.login_input .btn button {
+    border: 1px solid #D72300;
+    width: 100%; height: 100%;
+    padding: 0 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 24px; font-weight: bold;
+    color: #FFFFFF;
+    background-color: #D72300;
+    cursor: pointer;
+}
+.login_input .btn .join_btn {
+    padding: 0 10px;
+    display: inline-block;
+    width: 100%; height: 100%;
+    line-height: 68px;
+    text-align: center;
+    font-size: 24px; font-weight: 900;
+    color: #FFFFFF;
+    background-color: #512314;
+    border: 1px solid #512314;
+    border-radius: 10px;
+}
+.login_input .search ul {
+    display: flex;
+}
+.login_input .search ul li:first-child {
+    border-right: 1px solid #E5E5E5;
+}
+.login_input .search ul li .searchBtn {
+    padding: 5px 18px 5px 0;
+    font-size: 18px; font-weight: 900;
+    color: #000000;
+}
+.login_input .search ul li:nth-child(2) .searchBtn {
+    padding-left: 18px;
+}
+
+/* 간편로그인 */
+.easy_login {
+    padding-left: 100px;
+}
+.easy_login p {
+    background: url('./images/ico_lock.png') no-repeat 0 center;
+}
+.easy_login ul {
+    margin: 15px 0px 20px 46px;
+}
+.easy_login ul li {
+    margin-bottom: 12px; padding: 5px 5px 5px 70px;
+    width: 338px; height: 64px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+}
+.easy_login ul li a {
+    display: block;
+    width: 100%; height: 100%;
+    line-height: 54px;
+    text-align: center;
+    border-left: 1px solid #FFFFFF;
+}
+.easy_login ul li a span {
+    font-size: 20px; font-weight: 700;
+    color: #FFFFFF;
+}
+.easy_login ul li:nth-child(1) {
+    background: #1EC800 url('./images/naver.gif') no-repeat 21px center;
+}
+.easy_login ul li:nth-child(2) {
+    background: #FFEB00 url('./images/kakao.gif') no-repeat 21px center;
+}
+.easy_login ul li:nth-child(2) a span {
+    color: #000000;
+}
+.easy_login ul li:nth-child(3) {
+    background: #000000 url('./images/apple.gif') no-repeat 21px center;
+}
+
+
+/* 비회원 주문 */
+.guest {
+    padding: 50px 0 45px;
+    width: 100%;
+    background-color: #F2EBE6;
+}
+
+.guest_in {
+    margin: auto; padding: 20px 16px;
+    width: 1184px;
+}
+.guest_in .guest_btn ul {
+    display: flex;
+}
+.guest_in .guest_btn ul li:nth-child(1) {
+    padding-right: 14px;
+}
+.guest_in .guest_btn ul li:nth-child(2) {
+    padding-left: 14px;
+}
+.guest_in .guest_btn ul button {
+    padding: 5px 0;
+    border: none;
+    background-color: #F2EBE6;
+    cursor: pointer;
+}
+.guest_in .guest_btn ul span {
+    font-size: 22px; font-weight: 900;
+    color: #B8B8B8;
+}
+.guest_in .guest_btn ul li.on span {
+    color: #E22219;
+}
+.guest_in .guest_box {
+    margin: 18px 0; padding: 57px 64px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.guest_in .guest_box p {
+    font-size: 22px; font-weight: 700;
+    color: #000000;
+}
+.guest_in .guest_box .guest_input_box {
+    display: flex;
+    align-items: center;
+}
+.guest_in .guest_box .guest_input_box p {
+    padding-right: 30px;
+    font-size: 22px; font-weight: 900;
+    color: #000000;
+}
+.guest_in .guest_box .guest_input_box div {
+    padding-bottom: 5px; margin-right: 52px;
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    background: url('./images/input_line.png') no-repeat 0 bottom;
+}
+.guest_in .guest_box .guest_input_box input {
+    border: none; outline: none;
+    width: 300px;height: 68px;
+    font-size: 22px; font-weight: 900;
+}
+.guest_in .guest_box .guest_input_box .input_x {
+    width: 30px; height: 66px;
+    background: url('./images/ico_x.png') no-repeat center center;
+    background-size: 18px auto;
+    cursor: pointer;
+    border: none;
+}
+.guest_in .guest_box .guest_input_box .input_view {
+    width: 30px; height: 66px;
+    background: url('./images/ico_eye.png') no-repeat center center;
+    cursor: pointer;
+    border: none;
+}
+.guest_in .guest_box_btn {
+    margin: auto; padding: 20px 10px 22px;
+    width: 272px; height: 76px;
+    background-color: #512314;
+    border-radius: 10px;
+}
+.guest_in .guest_box_btn p .guestBtn {
+    font-size: 26px; font-weight: 900;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+}

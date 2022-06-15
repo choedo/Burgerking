@@ -1,0 +1,89 @@
+.btn_con {
+    margin: auto; margin-top: 15px;
+    width: 1184px; height: 75px;
+}
+.btn_con ul {
+    width: 100%; height: 100%;
+    display: flex;
+}
+.btn_con ul li {
+    /* padding: 23px 0; */
+    width: 25%; height: 100%;
+    text-align: center;
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+.btn_con ul li:nth-child(1) {
+    border: 0;
+    border-bottom: 2px solid #000000;
+    background-color: #F2F2F2;
+}
+.btn_con ul li:nth-child(1) .btn_link {
+    color: #C0C0C0;
+    border-right: 1px solid #FFFFFF;
+}
+.btn_con ul li:nth-child(2) {
+    border-bottom: 0;
+}
+.btn_con ul li:nth-child(3) {
+    border: 0;
+    border-bottom: 2px solid #000000;
+    background-color: #F2F2F2;
+}
+.btn_con ul li:nth-child(3) .btn_link {
+    color: #C0C0C0;
+    border-right: 1px solid #FFFFFF;
+}
+.btn_con ul li:nth-child(4) {
+    border: 0;
+    border-bottom: 2px solid #000000;
+    background-color: #F2F2F2;
+}
+.btn_con ul li:nth-child(4) .btn_link {
+    color: #C0C0C0;
+}
+.btn_con ul li .btn_link {
+    width: 100%; height: 100%;
+    line-height: 75px;
+    font-size: 24px; font-weight: 900;
+    display: block;
+}
+
+.container {
+    margin: auto; padding-top: 45px;
+    width: 1184px;
+}
+
+.awards_box > ul {
+    width: 100%;
+    display: flex; flex-wrap: wrap;
+    justify-content: space-between;
+}
+.awards_box > ul > li {
+    margin-bottom: 100px;
+    width: 50%;
+    display: flex;
+}
+.container .img_box {
+    width: 75px; height: 75px;
+    margin-right: 45px;
+    border: 1px solid #e9e9e9;
+    border-radius: 10px;
+}
+.container .awards_box img {
+    width: 100%;
+}
+.awards_box h3 {
+    font-size: 40px; font-weight: 900;
+    line-height: 48px
+}
+.awards_box h5 {
+    font-size: 20px; font-weight: 800;
+}
+.awards_box p {
+    margin-top: 8px;
+    font-size: 18px; font-weight: 500;
+}
+.text_box ul li {
+    margin-top: 25px;
+}

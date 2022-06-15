@@ -1,0 +1,26 @@
+.menu_link {
+    margin: auto; padding: 50px 0 45px;
+    width: 1184px;
+}
+.menu_link div {
+    display: flex;
+    justify-content: space-between; align-items: center;
+}
+.menu_link h2 {
+    font-size: 40px; font-weight: 900;
+}
+.menu_link ul {
+    display: flex;
+}
+.menu_link ul li {
+    padding: 0 14px;
+}
+.menu_link ul li.on .category {
+    color: #E22219;
+    border-bottom: 5px solid #E22219;
+}
+.menu_link ul .category {
+    padding: 5px 0;
+    font-size: 16px; font-weight: 900;
+    color: #B8B8B8;
+}

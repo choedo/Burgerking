@@ -1,0 +1,50 @@
+.menu_link {
+    margin: auto; padding: 50px 0 45px;
+    width: 1184px;
+}
+.menu_link div {
+    display: flex;
+    justify-content: space-between; align-items: center;
+}
+.menu_link h2 {
+    font-size: 40px; font-weight: 900;
+}
+.menu_link ul {
+    display: flex;
+}
+.menu_link ul li {
+    padding: 0 14px;
+}
+.menu_link ul .category {
+    padding: 5px 0;
+    font-size: 16px; font-weight: 900;
+    color: #B8B8B8;
+}
+
+.list {
+    margin: auto;
+    width: 1184px;
+}
+.list ul {
+    display: flex; flex-wrap: wrap;
+}
+.list ul li {
+    width: 25%; height: 300px;
+    display: flex;  flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.list ul li .menuImg {
+    max-width: 220px; height: 144px;
+    text-align: center;
+}
+.list ul li .menuImg img {
+    width: 100%; height: 100%;
+}
+.list ul li .menuName {
+    padding: 30px 5px 0;
+}
+.list ul li .menuName p {
+    font-size: 20px; font-weight: 900;
+    text-align: center;
+}

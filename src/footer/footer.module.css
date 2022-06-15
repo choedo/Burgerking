@@ -1,0 +1,97 @@
+footer {
+    width: 100%; height: auto;
+    background-color: #2b0200;
+}
+.footer_in {
+    margin: auto;
+    width: 1144px;
+}
+
+
+.f_menu {
+    padding: 50px 0;
+}
+.f_mn {
+    display: flex;
+    justify-content: flex-start;
+}
+.f_mn > li {
+    padding-left: 24px;
+    width: 25%;
+}
+.f_mn li:first-child {
+    padding-left: 0;
+}
+
+.f_sub_mn {
+    padding-top: 20px;
+}
+.f_main_mn_link {
+    color: #F5EBDC;
+    font-size: 24px; font-weight: bold;
+}
+.f_sub_mn_link {
+    color: #BBA391;
+    font-size: 16px; font-weight: 600;
+    line-height: 32px;
+}
+
+
+
+.f_copy {
+    padding: 47px 0;
+    border-top: 1px solid #bba391;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright h2 {
+    padding-bottom: 20px;
+}
+.copyright p {
+    color: #BBA391;
+    font-size: 14px; font-weight: 600;
+}
+.f_sns ul {
+    padding-top: 20px;
+    display: flex;
+}
+.f_sns ul li {
+    padding-right: 6px;
+}
+
+
+.termBox ul {
+    display: flex;
+}
+.termBox ul li::after {
+    content: "|";
+    color: #BBA391;
+    font-size: 14px;
+}
+.termBox ul li:last-child::after {
+    content: "";
+}
+.termBox ul li .f_terms {
+    color: #BBA391;
+    font-size: 14px; font-weight: 600;
+    padding: 5px 10px;
+}
+
+.recBox {
+    margin-top: 10px; padding: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.recBox p {
+    width: 48%; height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid #BBA391;
+    border-radius: 16px;
+}
+.recBox .f_recruitment {
+    display: block;
+    color: #F5EBDC;
+    font-size: 14px; font-weight: 600;
+}
