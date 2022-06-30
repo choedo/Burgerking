@@ -72,7 +72,7 @@ function Home() {
                     <div className="main_search">
                         <h1>매장찾기</h1>
                         <h2>고객님 주변에 있는 버거킹을 찾아보세요!</h2>
-                        <p><Link to="/" className="search_btn">매장찾기</Link></p>
+                        <p><Link to="/Burgerking/search" className="search_btn">매장찾기</Link></p>
                         <ul>
                             <li>
                                 <div>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import "./home.css";
 import Slider from 'react-slick';
 import "./slick.css";
 import "./slick-theme.css";
@@ -19,17 +20,11 @@ export default class ImgSlide extends Component{
 
 
         return(
-            <div style={{height: "480px"}}>
+            <div>
                 <Slider {...settings}>
-                    <div style={{width: "100%", height: "480px"}}>
-                        <img src={require('./images/main01.png')} alt="메인이미지1" />
-                    </div>
-                    <div style={{width: "100%", height: "480px"}}>
-                        <img src={require('./images/main02.png')} alt="메인이미지1" />
-                    </div>
-                    <div style={{width: "100%", height: "480px"}}>
-                        <img src={require('./images/main03.png')} alt="메인이미지1" />
-                    </div>
+                    <div className="mainImg mainImg01"></div>
+                    <div className="mainImg mainImg02"></div>
+                    <div className="mainImg mainImg03"></div>
                 </Slider>
             </div>
         );

@@ -9,66 +9,21 @@
     width: 1440px;
 }
 
-
-/* .main_sl {
-    height: 480px;
-    overflow: hidden;
-    position: relative;
+.mainImg {
+    width: 100%; height: 480px;
 }
-.main_img ul {
-    width: 100%;
+.mainImg01 {
+    background: url('./images/main01.png') no-repeat center center;
+    background-size: 100% 480px;
 }
-.main_img ul li {
-    width: 100%;
-    position: absolute;
-    left: 100%;
+.mainImg02 {
+    background: url('./images/main02.png') no-repeat center center;
+    background-size: 100% 480px;
 }
-.main_img ul li:first-child {
-    left: 0;
+.mainImg03 {
+    background: url('./images/main03.png') no-repeat center center;
+    background-size: 100% 480px;
 }
-.sl_btn {
-    display: flex;
-    
-}
-.sl_btn div {
-    width: 60px; height: 60px;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    cursor: pointer;
-    display: flex;
-    justify-content: center; align-items: center;
-}
-.sl_btn div.prev_btn {
-    left: 0;
-}
-.sl_btn div.next_btn {
-    right: 0;
-}
-
-.sl_control ul {
-    display: flex;
-    justify-content: center; align-items: center;
-    position: absolute;
-    bottom: 30px; left: 50%;
-    transform: translate(-50%, 0);
-}
-.sl_control ul li {
-    margin: 0 4px;
-    width: 8px; height: 8px;
-    border-radius: 4px;
-    background-color: #FFFFFF;
-    cursor: pointer;
-}
-.sl_control ul li.on {
-    background-color: #E2231A;
-}
-.sl_control ul li:last-child {
-    width: 20px; height: 20px;
-    border: none;
-    background-color: transparent;
-} */
-
 
 .main_video {
     height: 605px;
@@ -234,4 +189,148 @@
     font-size: 40px; font-weight: bold;
     color: #FFFFFF;
     background: url(./images/ico_phone.png) no-repeat 0 center;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .main_in {
+        width: 100%;
+    }
+
+    .main_manual {
+        height: 480px;
+    }
+    .main_manual .maunal_app {
+        background-size: 100%;
+    }
+    .main_manual .maunal_delivery {
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .main {
+        margin-top: 57px;
+    }
+
+    .mainImg {
+        width: 100%; height: 720px;
+    }
+    .mainImg01 {
+        background: url('./images/m_main01.png') no-repeat center center;
+        background-size: 100% 720px;
+    }
+    .mainImg02 {
+        background: url('./images/m_main02.png') no-repeat center center;
+        background-size: 100% 720px;
+    }
+    .mainImg03 {
+        background: url('./images/m_main03.png') no-repeat center center;
+        background-size: 100% 720px;
+    }
+
+    .main_sns {
+        padding: 0 0;
+        height: 189px;
+    }
+    .main_sns ul {
+        width: 100%; height: 189px;
+    }
+    .main_sns ul li {
+        width: 33%;;
+    }
+    .main_sns ul li a {
+        display: flex;
+        justify-content: center; align-items: center;
+        flex-direction: column;
+    }
+
+    .main_manual {
+        min-height: 320px;
+        display: flex;
+    }
+    .main_manual .maunal_app {
+        background-size: 100% 100%;
+    }
+    .main_manual .maunal_delivery {
+        background-size: 100% 100%;
+    }
+
+
+    .main_search {
+        padding: 33px 0 25px;
+        height: auto;
+    }
+    .main_search h1 {
+        font-size: 25px;
+    }
+    .main_search h2 {
+        font-size: 12px;
+    }
+    .main_search > p {
+        margin: 20px auto 0;
+        width: 158px; height: 32px;
+        border-radius: 16px;
+    }
+    .main_search > p .search_btn {
+        font-size: 19px;
+        line-height: 32px; 
+    }
+    .main_search ul {
+        flex-wrap: wrap;
+    }
+    .main_search ul li {
+        margin-top: 35px;
+        padding: 50px 0 8px;
+        width: 33%;
+        border-right: 0 solid #E5E5E5;
+    }
+    .main_search ul li:nth-child(1) {
+        background-size: auto 45px;
+    }
+    .main_search ul li:nth-child(2) {
+        background-size: auto 45px;
+    }
+    .main_search ul li:nth-child(3) {
+        background-size: auto 45px;
+    }
+    .main_search ul li:nth-child(4) {
+        background-size: auto 45px;
+    }
+    .main_search ul li:nth-child(5) {
+        background-size: auto 45px;
+    }
+    .main_search ul li:nth-child(6) {
+        background-size: auto 45px;
+    }
+    .main_search ul li p {
+        display: none;
+    }
+
+    .main_ad {
+        padding: 30px 15px;
+        height: auto;
+        background: url('./images/bg_home_cs.40b21d3f.png') no-repeat center center;
+    }
+    .main_ad ul {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .main_ad ul li:first-child {
+        width: 100%;
+    }
+    .main_ad ul strong {
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+    .main_ad ul span {
+        font-size: 13px;
+    }
+    .main_ad ul p {
+        margin-top: 30px;
+        padding-left: 66px;
+        font-size: 32px;
+        background: url(./images/ico_phone.png) no-repeat 0 0;
+    }
 }
