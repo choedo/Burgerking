@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Burgerking/static/css/main.febb5887.css",
-    "main.js": "/Burgerking/static/js/main.97f62e6b.js",
+    "main.css": "/Burgerking/static/css/main.12fb9da4.css",
+    "main.js": "/Burgerking/static/js/main.529841d1.js",
     "static/js/787.ae90608e.chunk.js": "/Burgerking/static/js/787.ae90608e.chunk.js",
     "static/media/realwhopper_list.png": "/Burgerking/static/media/realwhopper_list.e9769198c4077dda0420.png",
     "static/media/bg_ingredient.gif": "/Burgerking/static/media/bg_ingredient.21292a5fbe6f066dd57c.gif",
@@ -13,12 +13,15 @@
     "static/media/realwhopper_title.png": "/Burgerking/static/media/realwhopper_title.c1fc4e9787076b0526bc.png",
     "static/media/img_esg02.png": "/Burgerking/static/media/img_esg02.3188e749037aeda88242.png",
     "static/media/main01.png": "/Burgerking/static/media/main01.92915b8c0e23e3a9264d.png",
+    "static/media/m_main01.png": "/Burgerking/static/media/m_main01.a7de964c2d7f55385166.png",
     "static/media/img_trust04.jpg": "/Burgerking/static/media/img_trust04.8f2798407d4c9d19b26b.jpg",
     "static/media/awards_title.png": "/Burgerking/static/media/awards_title.7a5fd75625b94988d91c.png",
     "static/media/main02.png": "/Burgerking/static/media/main02.dfdee2da76e971dd5aad.png",
     "static/media/info_bg.png": "/Burgerking/static/media/info_bg.3e47ccddc9f2e2321411.png",
     "static/media/img_esg01.png": "/Burgerking/static/media/img_esg01.743bf4b0c4f34e467553.png",
+    "static/media/m_main02.png": "/Burgerking/static/media/m_main02.9485b050732ea567e119.png",
     "static/media/main03.png": "/Burgerking/static/media/main03.c1dbac3296edc34e3f0f.png",
+    "static/media/m_main03.png": "/Burgerking/static/media/m_main03.96d90f5616fd00b8dc95.png",
     "static/media/img_story02.jpg": "/Burgerking/static/media/img_story02.b09ff34aa8f191fe54c0.jpg",
     "static/media/bg_home_guide_app.7be296de.png": "/Burgerking/static/media/bg_home_guide_app.7be296de.63099e28e9a2ec4e80b2.png",
     "static/media/bg_grill.jpg": "/Burgerking/static/media/bg_grill.7fbf99e155964b89a76e.jpg",
@@ -34,12 +37,12 @@
     "static/media/txt_whopper.gif": "/Burgerking/static/media/txt_whopper.89f1135e6cdb9b62f7da.gif",
     "static/media/awards_tro.png": "/Burgerking/static/media/awards_tro.b6fd822bb8c0e17b339a.png",
     "index.html": "/Burgerking/index.html",
-    "main.febb5887.css.map": "/Burgerking/static/css/main.febb5887.css.map",
-    "main.97f62e6b.js.map": "/Burgerking/static/js/main.97f62e6b.js.map",
+    "main.12fb9da4.css.map": "/Burgerking/static/css/main.12fb9da4.css.map",
+    "main.529841d1.js.map": "/Burgerking/static/js/main.529841d1.js.map",
     "787.ae90608e.chunk.js.map": "/Burgerking/static/js/787.ae90608e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.febb5887.css",
-    "static/js/main.97f62e6b.js"
+    "static/css/main.12fb9da4.css",
+    "static/js/main.529841d1.js"
   ]
 }
